@@ -1,0 +1,89 @@
+@media screen and (max-width:787px){
+    .sec-2-cards {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .sec-2-left {
+        width: 100%;
+    }
+    
+    .sec-2-right {
+        width: 100%;
+    }
+    .sec-3cards {
+        flex-wrap: wrap;
+    }
+    
+    .sec-3-card {
+        width: 50%;
+    }
+    .section-4 {
+        width: 70%;
+    }
+    .sec-5-cards {
+        width: 90%;
+    }
+    
+    .sec-5-card {
+        width: 49%;
+    }
+    .section-9{
+        width: 80%;
+    }
+
+    .sec-10-cards {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .sec-10-card {
+        width: 47%;
+    }
+    .sec-12-cards {
+        width: 80%;
+    }
+    
+    .sec-12-card {
+        width: 33%;
+    }
+}
+@media screen and (max-width:576px){
+    .sec-2-cards {
+        width: 100%;
+    }
+    .sec-2-right {
+        width: 90%;
+    }
+    .sec-3-card {
+        width: 100%;
+    }
+    .section-4 {
+        width:  90%;
+    }
+    .sec-5-card {
+        width: 100%;
+    }
+    .section-7{
+        flex-wrap: wrap;
+    }
+    .sec-7-left,.sec-7-right{
+        width: 98%;
+    }
+    .section-9{
+        width: 90%;
+    }
+    .sec-10-top{
+        width: 90%;
+    }
+    .sec-10-card {
+        width: 100%;
+    }
+    .sec-12-card {
+        width: 100%;
+    }
+    .sec-7-right pre{
+        white-space:break-spaces;
+    }
+}

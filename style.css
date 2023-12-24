@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "Arial", "sans-serif";
+}
+
+.section-1 {
+    background-image: url('./images/bg-1.jpeg');
+    min-height: 680px;
+    background-size: cover;
+    color: #fff;
+    background-position-y: -40px;
+    background-repeat: no-repeat;
+}
+
+.sec-1-content {
+    padding: 35% 0 0 10%;
+}
+
+.sec-1-content h1 {
+    font-size: 4rem;
+}
+
+.sec-1-content p {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    font-size: 1.15rem;
+}
+
+.sec-2-cards {
+    width: 75%;
+    margin: 3% auto;
+    display: flex;
+}
+
+.sec-2-left {
+    width: 65%;
+}
+
+.sec-2-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec-2-right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+}
+
+.sec-2-right h2 {
+    font-size: 2.5rem;
+}
+
+.sec-2-right span {
+    display: inline-block;
+    margin: 2% 0;
+    font-family: 'Courier New', monospace;
+}
+
+.sec-2-right p {
+    font-size: 0.90rem;
+}
+
+.sec-2-btn button {
+    padding: 7px 15px;
+    background-color: orangered;
+    color: #fff;
+    font-size: 12px;
+    border: none;
+    margin-top: 3%;
+    border: 1px solid transparent;
+    font-family: 'Courier New', monospace;
+}
+
+.sec-2-btn button:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.sec-3cards {
+    display: flex;
+}
+
+.sec-3-card {
+    width: 33.33%;
+    position: relative;
+}
+
+.sec-3-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.sec-3-img {
+    height: 348px;
+}
+
+.sec-3-layer {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgb(78 108 122 / 50%);
+    padding: 5%;
+    color: #fff;
+}
+
+.sec-3-layer3 {
+    justify-content: flex-start;
+    background-color: rgb(211 129 174 / 50%);
+}
+
+.sec-3-layer-3 {
+    background-color: rgb(211 129 174 / 50%);
+}
+
+.sec-3-layer1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 55px;
+}
+
+.sec-3-layer p {
+    font-size: 0.90rem;
+    margin-top: 2%;
+}
+
+.section-4 {
+    margin: 2% auto;
+    width: 35%;
+    text-align: center;
+}
+
+.section-4 h2 {
+    font-size: 2.3rem;
+    margin-bottom: 4%;
+}
+
+.section-4 p {
+    font-family: 'Courier New', monospace;
+}
+
+.sec-5-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    width: 75%;
+    margin: 4% auto;
+}
+
+.sec-5-card {
+    width: 49%;
+    display: flex;
+    padding: 2%;
+}
+
+.sec-5-card-logo {
+    width: 10%;
+    display: flex;
+}
+
+.sec-5-card-logo i {
+    font-size: 36px;
+    color: orangered;
+}
+
+.sec-5-card-content {
+    width: 90%;
+}
+
+.sec-5-card-content h2 {
+    font-weight: 500;
+    padding: 1%;
+}
+
+.sec-5-card-content p {
+    margin-top: 3%;
+    padding-left: 1%;
+    font-size: 0.90rem;
+}
+
+hr {
+    border: 3px solid #fff;
+    width: 14%;
+}
+
+.hr-1 {
+    border: 3px solid #000;
+}
+
+.section-7 {
+    display: flex;
+}
+
+.sec-7-left {
+    width: 50%;
+}
+
+.sec-7-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec-7-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+}
+
+.sec-7-right i {
+    font-size: 4.5rem;
+    color: orangered;
+}
+
+.sec-7-right p {
+    font-size: 0.9rem;
+}
+
+pre {
+    font-family: 'Courier New', monospace;
+    margin-top: 4%;
+}
+
+.sec-7-lines {
+    width: 8%;
+    margin: 2% auto;
+    font-size: 30px;
+}
+
+.sec-8-logos {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 4% 0;
+}
+
+.sec-8-logos img {
+    width: 8%;
+}
+
+.section-8 {
+    background-color: #f2f2f2;
+}
+
+.section-9 {
+    width: 50%;
+    margin: 4% auto;
+    text-align: center;
+}
+
+.section-9 h2 {
+    font-size: 2rem;
+}
+
+.section-10 {
+    background-image: url(./images/bg-9.jpeg);
+    min-height: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sec-10-layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.sec-10-top {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding: 4% 0;
+    position: relative;
+    z-index: 1;
+}
+
+.sec-10-top h2 {
+    font-size: 2.3rem;
+}
+
+.sec-10-top span {
+    display: inline-block;
+    padding: 2% 0;
+    font-family: 'Courier New', monospace;
+    font-size: 1.5rem;
+}
+
+.sec-10-top p {
+    font-size: 0.90rem;
+}
+
+.sec-10-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.sec-10-card {
+    width: 24%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+    color: #fff;
+}
+
+.sec-10-card img {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sec-10-card h3 {
+    font-family: 'Courier New', monospace;
+    margin-top: 10%;
+}
+
+.sec-10-card p {
+    font-size: 0.90rem;
+}
+
+.sec-10-bottom {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.section-12 {
+    background-color: #f2f2f2;
+}
+
+.sec-12-top {
+    padding: 2% 0;
+}
+
+.sec-12-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    padding: 4% 0;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.sec-12-card {
+    width: 24%;
+    display: flex;
+}
+
+.sec-12-left {
+    width: 20%;
+}
+
+.sec-12-left i {
+    font-size: 2.15rem;
+    color: orangered;
+}
+
+.sec-12-right {
+    width: 80%;
+}
+
+.sec-12-card pre {
+    font-size: 0.80rem;
+}
+
+.footer{
+    background-color:rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    padding: 1.5% 0;
+    color: #fff;
+    gap: 10px;
+}
+
+.footer a,span{
+    font-size: 0.80rem;
+}
